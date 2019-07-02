@@ -1,0 +1,4 @@
+User ID  = YOUR_USER_ID
+Device ID  = YOUR_DEVICE_ID
+Device credential = YOUR_DEVICE_CREDENTIAL
+Zapier Hook = YOUR_ZAPIER_HOOK
