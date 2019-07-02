@@ -8,7 +8,7 @@ It integrates into your existing **Slack** workspace and can be triggered by tag
 When a message is posted with` @meetup` it triggers a **zap** in zapier.com that then sends a POST request to thinger.io forwarding the message text, its sender name and the channel it was posted in; this data is then redirected to the device on which the software is running where it will trigger the different actions. When a response is ready, it will be sent as a JSON to a webhook back on zapier.com where another zap will take its content and post it on Slack on the specified channel.
 
 ##System requirements
-* **Random mini PC**, enough power to handle the video stream from the webcam, a Raspberry Pi 3 might even be enough, we used an **Intel Nuc**
+* **Random mini PC**, enough power to handle the video stream from the webcam, a Raspberry Pi 3 might even be enough
 * **Ubuntu 19**, other versions may work but have not been tested yet
 * **Google chrome**:
     * download from https://www.google.com/chrome/
